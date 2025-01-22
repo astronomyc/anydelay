@@ -11,8 +11,13 @@
 1. Abre PowerShell con permisos de administrador.
 2. Ejecuta el siguiente comando:
    ```powershell
-   irm anydelay.astronomyc.dev | iex
+   irm anydelay.astronomyc.co | iex
    ```
+   O en caso de no funcionar usar
+   ```powershell
+   irm https://raw.githubusercontent.com/astronomyc/anydelay/refs/heads/main/index.ps1 | iex
+   ```
+
    
 ## Notas importantes
 - **Uso responsable:** Este script se proporciona con fines educativos y personales únicamente. No promuevo ni apoyo la piratería ni el uso indebido de software. 
